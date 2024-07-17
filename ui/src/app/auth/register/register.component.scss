@@ -1,0 +1,61 @@
+@import"../../../theme.scss";
+:host{
+    display: flex;
+    justify-content: space-between;
+
+    height: 100%;
+    width: 90%;
+}
+.register-form{
+    width: 600px;
+margin: auto;
+    mat-card{
+        mat-card-header{
+            display: flex;
+            justify-content: center;
+        }
+        mat-card-title{
+            font-size: 2rem;
+            color:rgb(176, 84, 51);
+            font-weight: bold;
+        }
+        mat-grid-tile{
+
+            mat-form-field{
+                width: 100%;
+            }
+        }
+        mat-card-actions{
+            button{
+                margin: auto;
+                width: 80%;
+            }
+            h4{
+                margin: 0;
+                padding-right:1rem;
+               font-size: 20px; 
+            }
+        }
+    }
+  
+}
+.libary-info{
+    width: 400px;
+    border-left: 1px solid white;
+    padding: 1rem;
+
+    mat-list-item{
+        height: auto;
+        p{
+            white-space:normal;
+            font-size: 1.2rem;
+            font-style: italic;
+            text-align: justify;
+        }
+    }
+}
+.custom-snack-bar {
+    font-size: 20px;  /* Increase text size */
+    top: 0 !important;  /* Position it at the top */
+  }
+  

@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+/* Custom styles for MatSnackBar */
+.custom-snack-bar {
+    font-size: 20px;  /* Increase text size */
+    top: 0 !important;  /* Position it at the top */
+  }
+  
